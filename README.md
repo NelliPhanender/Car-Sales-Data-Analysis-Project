@@ -32,50 +32,111 @@ The dashboard should provide real-time insights into key performance indicators 
 Problem Statement 2: Charts Requirement
 
 1.	YTD Sales Weekly Trend: Display a graph chart illustrating the weekly trend of YTD sales. The X-axis should represent weeks, and the Y-axis should show the total sales amount.
+
 2.	YTD Total Sales by Body Style: Visualize the distribution of YTD total sales across different car body styles using a Pie chart.
+
 3.	YTD Total Sales by Colour: Present the contribution of various car Colours to the YTD total sales through a pie chart.
+
 4.	YTD Cars Sold by Dealer Region: Showcase the YTD sales data based on different dealer regions using a map chart to visualize the sales distribution geographically.
+
 5.	Company-Wise Sales Trend in Grid Form: Provide a tabular grid that displays the sales trend for each company. The grid should showcase the company name along with their YTD sales figures.
-6.	Details Grid Showing All Car Sales Information: Create a detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region, date, etc
+
+6.	Details Grid Showing All Car Sales Information: Create a detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region, date, etc.
+
 
 I divided this Project into three Tasks with subtasks each as follows:
 
-
 Task1:
 
-1.	Step 1: Load the Dataset given by the Company into Power BI Desktop
+1.	Step 1: Load the Dataset given by the Company into Power BI Desktop.
+
 2.	Transformed data and Checked for Quality of Columns. Also checked for Data duplicates and errors and null data cells. Data Cleaning is done at this stage.
+
 3.	Started creating Calendar_table to make dates(ddmmyyyy)  into Yearly, Monthly Weekly and date wise and attached to Car_data using Data Modelling.
+
 4.	Create a Overview Dashboard and use textbox box to display.
 5.	Now using New measure Dax functions we found YTD total sales, PYTD total sales, difference of YTD and PYTD total sales, YTD Growth Sales in percentage and MTD total sales all in one KPI Name Card Visual.
+
 To find PYTD sales  using DAX- “pytd total sales = CALCULATE(SUM(car_data[Price ($)]),SAMEPERIODLASTYEAR('calendar table'[Date]))”.
+
 6.	Similarly I created KPIs for YTD Average Price,  PYTD Avg Price,  Difference of YTD and PYTD average prices and also formulated for YTD Average Growth Price and MTD Average Price.
+
 7.	Similarly, for YTD Cars Sold, PYTD Cars Sold and Difference of YTD and PYTD Cars Sold
 YTD Cars Sold Growth and MTD Cars Sold.
 By here task 1 completed the first requirement.
 
 
+
 Task 2:
 
 1.	Took the Graph chart visual so that I gave Week wise on X-axis and YTD Weekly Sales, Max Point YTD Weekly sales on Y-axis. Highlighted the maximum sales point in the graph.
-2.	YTD Sales by Body Styles Using Donut chart where labelled by different styles of Car from Car_ data to show which Body style cars are having more sales in YTD
+
+
+![Screenshot 2024-03-22 175819](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/209d20eb-a6fc-4355-bc9a-9e6406e8b733)
+
+
+2.	YTD Sales by Body Styles Using Donut chart where labelled by different styles of Car from Car_ data to show which Body style cars are having more sales in YTD.
+
+
+![Screenshot 2024-03-22 175211](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/737ddfc3-00c1-4f43-8175-0bc90e99391a)
+
+
 3.	YTD Sales by Colour Using Donut chart where labelled by different Colours of Cars from Car_ data to which colour cars are having more sales.
+
+
+![Screenshot 2024-03-22 175515](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/13f431fb-2cad-4bb6-9121-e0a83403cc23)
+
+
 4.	YTD Cars Sold by Dealer Region is built using Filled Map by dropping Dealer_region from Car_data to Location and YTD Cars sold to Bubble Size to show region wise performance of cars sold.
+
+
+![Screenshot 2024-03-22 180027](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/dd194590-8177-44b5-9175-0f3147cee42d)
+
+
 5.	I have built Company Wise Sales Trends Performance matrix table to analyse the Total Sales, Average Price, Total Cars Sold and Growth of each company wise.
+
+
+![Screenshot 2024-03-22 180209](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/fc6e85b7-6eca-4009-b3d7-42a88cae019e)
+
+
 6.	Body style, Dealers, Transmission and Engine as slicers to know their statistics in Sales, Pricing and Growth.
 Here the second requirement is completed.
-
 
 Task 3:
 
 1.	 To visualize the performance metrics, Company Sales, Dealer wise with repect to customers is produced in a Matrix Table so that we can understand the customers interest and forecast the growth in Cars sales.
-2.	I have built a Detail Dashboard and synced slicers to optimise and filter in both dashboards.
 
-<p>
+2.	I have built a Detail Dashboard and synced slicers to optimise and filter in both dashboards. 
+
+
+
+![Screenshot 2024-03-22 181702](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/55e4e547-cd1e-434c-a0b9-18ec2eacb491)
+
+
+
+
+* *
+
+  
+**After Completion of all the Tasks the final dashboard of this project as follows :**
+
+
+
+![Screenshot 2024-03-22 182104](https://github.com/NelliPhanender/Power-Bi-Project-1/assets/151545512/e7cdda3e-a25e-45ee-82be-7b103d8feca4)
+
+To **View my Profile**
+Click on the link below
+******<p>
     <a href = "https://www.linkedin.com/in/phanendernelli" rel = "nofollow noreferrer">
        <img src="https://i.stack.imgur.com/gVE0j.png" alt ="linkedin"> LinkedIn
      </a> &nbsp;
      <a href = "https://github.com/NelliPhanender" rel = "nofollow noreferrer">
         <img src="https://i.stack.imgur.com/tskMh.png" alt = "github"> GitHub
      </a>
- </p>
+ </p>******
+ 
+
+
+
+
+
