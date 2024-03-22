@@ -69,4 +69,13 @@ Here the second requirement is completed.
 Task 3:
 
 1.	 To visualize the performance metrics, Company Sales, Dealer wise with repect to customers is produced in a Matrix Table so that we can understand the customers interest and forecast the growth in Cars sales.
-2.	I have built a Detail Dashboard and synced slicers to optimise and filter in both dashboards. 
+2.	I have built a Detail Dashboard and synced slicers to optimise and filter in both dashboards.
+
+<p>
+    <a href = "https://www.linkedin.com/in/phanendernelli" rel = "nofollow noreferrer">
+       <img src="https://i.stack.imgur.com/gVE0j.png" alt ="linkedin"> LinkedIn
+     </a> &nbsp;
+     <a href = "https://github.com/NelliPhanender" rel = "nofollow noreferrer">
+        <img src="https://i.stack.imgur.com/tskMh.png" alt = "github"> GitHub
+     </a>
+ </p>
